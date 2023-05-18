@@ -31,7 +31,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (request, response, next) => {
-  response.json({ message: "Hey! baladinha ta on" });
+  response.json({ message: "Servidor para autenticação de usuário by Victor Fazekas" });
   next();
 });
 
